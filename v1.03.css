@@ -1784,8 +1784,6 @@ header .header-content .header-content-inner p{font-size:18px;max-width:80%;marg
 @media (min-width:768px) {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{font-size:16px}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-size:22px}
-.ui-item {max-width:100%;height:auto;}   
-.footer ul.footer-socials.list-inline,.footer p.center{text-align:center}
 }
 .call-to-action h2{margin:0 auto 20px}
 .text-primary{color:#F05F40}
@@ -1806,3 +1804,7 @@ img::selection{color:#fff;background:0 0}
 img::-moz-selection{color:#fff;background:0 0}
 .subscribe-button{font-size:13px;padding:8px 12px 8px;color:#fff;background:#2196f3;}
 .subscribe-button:hover{color:#f8f8f8;background:#1976d2;outline: 0!important;}
+@media (max-width:768px) {
+.ui-item {max-width:100%;height:auto;}   
+.footer ul.footer-socials.list-inline,.footer p.center{text-align:center}
+}
