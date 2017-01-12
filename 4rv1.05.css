@@ -14,6 +14,96 @@
 .pathname-box > p > a:after,.pathname-box > p > a:before,.topic-actions > p > a:after{border:25px solid transparent;border-left-color:#f3f3f3;border-left-width:12px;border-right:0;content:" ";display:block;height:0;position:absolute;right:-12px;top:0;width:0;z-index:10}
 .pathname-box > p > a:after{border-left-color:#D9D9D7;right:-13px;z-index:5}
 
+form#ucp h1.page-title,div#cp-main h1.page-title{border-bottom:1px solid #0499e3;padding-bottom:5px;font-size:19px}
+h1.page-title{font-size:16px;font-weight:700}
+h1.page-title a{color:#fff}
+span.icon-post{display:inline-block;height:16px;background-repeat:no-repeat;width:16px;margin:-2px 0}
+p.author{font-size:14px;margin:0;padding:0}
+div#topicmenu-options{float:right;position:relative}
+div.post{box-shadow:0 1px 3px rgba(0,0,0,0.24);border-radius:3px;margin:0 0 16px;border-bottom:0!important;background-color:#fff;padding:0}
+.postdetails.post-header{background:#eee;clear:both;color:#aaa;min-height:auto;padding:11px 10px}
+.postbody{float:none;font-size:15px;position:relative;margin:0;overflow-wrap:break-word;word-wrap:break-word;padding:15px 10px;width:auto}
+div.post .inner{padding:0}
+.postbody .content{font-size:15px;overflow:visible}
+div.post[style*="background-color"] .inner{border-color:#9C9!important}
+div.post[style*="background-color"]{background-color:#DFD!important;border-bottom:2px solid #BDB;border-color:#CEC}
+.postprofile{background:#f6f7f9;border:none;border-bottom:1px solid #ddd;display:block;float:none;height:120px;margin:0;min-height:auto;padding:10px;width:auto}
+.user-avatar{float:left}
+.user-avatar img{height:100px;max-width:100px}
+.username_container{display:inline-block;padding:0 12px;vertical-align:top}
+.username_container.pm{padding:9px 12px}
+.click-info{margin-bottom:4px}
+span.rank-name{font-size:13px;border-top:1px solid #e34e04;color:#e34e04}
+p.user-medal{display:inline-block}
+span.pm a img{height:16px}
+.postprofile-user-info{float:right;font-size:14px;width:200px;overflow-y:scroll;height:100px}
+.postprofile-user-info::-webkit-scrollbar-thumb{background:#c1c1c1}
+.postprofile-user-info::-webkit-scrollbar{width:5px}
+.postprofile-user-info::-webkit-scrollbar-track{background:rgba(0,0,0,0.08)}
+p.prField{margin:0}
+.postdetails.post-header h3{border-bottom:none;text-transform:none;color:#ababab}
+.postprofile.pm{height:auto}
+.avatar-pm{display:inline-block}
+.avatar-pm img{width:60px;max-height:60px;border:1px solid #DDD;padding:3px}
+.pm-time{float:right;line-height:58px}
+.name-pm{line-height:40px}
+.zzPoll > h3 a:before,.contract:before,.expand:before,.buttons a:before,.profile-icons a:before,.zzPoll > h3 a:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1}
+.topic-actions{margin:0}
+
+.buttons{float:right}
+.buttons a[href^="/privmsg?mode=reply"]:after{content:" Trả lời tin nhắn"}
+.buttons a[href^="/privmsg?mode=post"]:after{content:" Tạo tin nhắn mới"}
+.buttons a[href^="/post?t="]:before,.post-icon a[href^="/privmsg?mode=reply"]:before{content:"\f122"}
+.buttons a[href^="/post?f="]::after{content:" Tạo chủ đề mới"}
+.buttons a[href^="/post?f="]:before,.post-icon a[href^="/privmsg?mode=post"]:before{content:"\f044"}
+.buttons a[href^="/post?t="]::after{content:" Trả lời bài viết"}
+.post-footer.clearfix{padding:10px 6px 10px 10px}
+ul.profile-icons{float:right;margin:0;opacity:0}
+.post:hover ul.profile-icons{opacity:1}
+ul.profile-icons.right li{float:left;display:block}
+ul.profile-icons li a,a[href*="mode=report"]{border-radius:3px;box-shadow:0 1px 5px rgba(78,78,78,0.42);padding:3px 5px}
+.profile-icons a[href*="mode=quote"]:before{content:"\f10d"}
+.profile-icons a[href*="mode=quote"]:after{content:" Trả lời"}
+.profile-icons a[href*="?thank="]:before{content:"\f164"}
+.profile-icons a[href*="?thank="]:after{content:" Cảm ơn"}
+.profile-icons a[href*="mode=editpost"]:before{content:"\f044"}
+.profile-icons a[href*="mode=editpost"]:after{content:" Sửa bài"}
+.zzPoll > h3 a:before,.profile-icons a[href*="mode=delete"]:before{content:"\f00d"}
+.profile-icons a[href*="mode=delete"]:after{content:" Xóa bài"}
+.profile-icons a[href*="report?mode=unlock"]:before{content:"\f024"}
+.profile-icons a[href*="report?mode=unlock"]:after{content:" Mở phản ánh"}
+a[href*="mode=report"]:before{font-family:FontAwesome;content:"\f071"}
+a[href*="mode=report"]:after{content:" Phản ánh"}
+.profile-icons a[href*="mode=ip"]:before{content:"\f041"}
+.profile-icons a[href*="mode=ip"]:after{content:" Xem IP"}
+input.liteoption,.button,.buttons a,a.button1,a.button2,button.button2,fieldset.submit-buttons input,input.button1,input.button2,input.button{background:#0499E3;border:none!important;border-radius:3px;box-shadow:0 1px 5px rgba(82,82,82,0.42);color:#FFF!important;display:inline-block;font-weight:700;margin:0 4px;padding:9px 10px}
+a[href*="mode=report"]{border-radius:3px;box-shadow:0 1px 5px rgba(78,78,78,0.42);padding:3px 5px}
+
+/* zzVotePlus */
+.vote_zzvote{float:left}
+.vote_zzvote li{display:none}
+.vote_zzvote > a.vote_plus{background:none no-repeat center #FFF;color:#444;cursor:pointer;box-shadow:0 1px 0 rgba(0,0,0,.05);border:1px solid #d9d9d9;border-radius:3px;font-weight:700;display:inline-block;height:24px;line-height:24px;transition:background .3s;-webkit-transition:background .3s;-moz-transition:background .3s;padding:0 7px}
+.vote_zzvote > a.vote_plus:hover{border-color:#666}
+.vote_zzvote > a.vote_plus[href=""]{border:0 none;background-color:#ccc;cursor:default;color:#FFF}
+.vote_zzvote > a.vote_plus.dis{background-color:#FFF;color:#CCC}
+.vote_zzvote > a.vote_plus.dis:hover{border-color:#d9d9d9;cursor:not-allowed}
+
+/* Thống kê bài viết */
+.olList{padding:0 7px 0 25px !important}
+.recommend.clearfix .olList { padding: 5px 7px 0 25px !important; }
+.recommend.clearfix h2 { color: #666; }
+.olList li{position:relative;height:30px;list-style-type:none;border-bottom:1px dashed #CCC;counter-increment:Zzindex;line-height:30px}
+.olList li:before{content:counter(Zzindex);display:block;height:23px;background:#DEDDDE;position:absolute;left:-22px;font-size:11px;top:3px;border-radius:2px;text-align:center;width:16px;color:#FFF;line-height:23px;z-index:10}
+.olList li:after{content:" ";background:#DEDDDE;display:block;width:6px;height:9px;position:absolute;top:10px;left:-10px;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+.olList li:nth-child(1):before,ol.olList li:nth-child(1):after{background:#C39BC0}
+.olList li:nth-child(2):before,ol.olList li:nth-child(2):after{background:#87C1C5}
+.olList li:nth-child(3):before,ol.olList li:nth-child(3):after{background:#AEC38A}
+.olList li:nth-child(4):before,ol.olList li:nth-child(4):after{background:#D4D4B0}
+.olList li:nth-child(5):before,ol.olList li:nth-child(5):after{background:#CCB9AE}
+.olList li:nth-child(5) ~ li:before,ol.olList li:nth-child(3) ~ li:after{color:#7192A8;text-shadow:0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF}
+.olList li > a{overflow:hidden;text-overflow:ellipsis;height:inherit;margin-left:5px;display:block}
+.olList li > .right{position:absolute;right:0;top:0}
+
 #fa_ticker_block{padding-top:12px;position:relative}
 #fa_ticker_block:before{content:url('http://i21.servimg.com/u/f21/16/89/96/68/aarow11.png');left:10px;position:absolute;top:0}
 #fa_ticker_block .module{background:#369FCF;border:none;border-radius:0;box-shadow:none;color:#FFF;font-size:11px;margin:10px 0;padding:6px 0;position:relative}
