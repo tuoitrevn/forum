@@ -6,7 +6,7 @@ body{direction:ltr;font-family:Roboto,arial,sans-serif;font-size:15px}
 a{color:inherit;text-decoration:none}
 i{vertical-align:middle}
 label, .label{font-size:14px!important;}  
-#wrap{margin:0 auto;max-width:1200px;padding-bottom:35px}
+#wrap{margin:0 auto;max-width:1200px}
 header:after,.pagination:after,.forum-section:after,.box-login-btns-main:after,label:after,.post-head:after,.notification-row:after,.mark-buttons:after,.form-buttons:after{clear:both;content:"";display:block}
 @keyframes notification-new-alert {
 0%{transform:rotate(20deg)}
@@ -100,7 +100,7 @@ span.rank{font-size:13px;border-top:1px solid #e34e04;color:#e34e04}
 .post-info{float:left}
 .post-time{color:#797979;float:right;font-size:12px;position:absolute;right:0;top:0}
 .post-details{color:#797979;font-size:14px}
-.post-buttons{background-color:#FAFAFA;border-color:#EBEBEB;border-style:solid;border-width:1px 0 0;border-radius:0 0 3px 3px;list-style:none;overflow:hidden;margin:8px -16px -16px}
+.post-buttons{background-color:#FAFAFA;border-color:#EBEBEB;border-style:solid;border-width:1px 0 0;border-radius:0 0 3px 3px;list-style:none;overflow:hidden;margin:8px -10px -10px}
 .post-buttons li{float:left}
 .post-buttons li + li{margin-left:8px}
 .post-buttons a{display:block;float:left;height:42px;line-height:42px;text-align:center;width:42px}
@@ -373,13 +373,9 @@ div#footer{background-color:#222222;color:#7f7f7f;padding:10px;position:relative
 p.cpr{border-bottom:1px solid #666;margin-bottom:5px;padding:0 0 3px}
 p.protected{font-weight:600}
 .new-topicss{height:320px;overflow-y:scroll}
-ul.posting-tool{list-style:none;margin:0;text-align:center;padding:10px 0 0}
-ul.posting-tool li{display:inline-block}
-ul.posting-tool li a{display:block;color:#3B5999!important;margin:1px 4px;font-size:13px;padding:4px 6px;box-shadow:0 1px 3px rgba(0,0,0,0.12);border:1px solid #DDD}
-ul.posting-tool li a:before{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-ul.posting-tool li a[href*="mode=report"]:before{content:"\f024"}
-ul.posting-tool li a[href^="/report?mode=lock"]:before{content:"\f11d"}
-ul.posting-tool li a[href*="mode=quote"]:before{content:"\f10d"}
-ul.posting-tool li a[href*="mode=editpost"]:before{content:"\f044"}
-ul.posting-tool li a[href*="mode=delete"]:before{content:"\f00d"}
-ul.posting-tool li a[href*="mode=ip"]:before{content:"\f041"}
+.sceditor-group{background:#fff!important;border-radius:0!important;border-bottom:0!important}
+a.sceditor-button{background:#ebebeb;margin:1px;box-sizing:content-box}
+ul.post-buttons li a[href*="mode=report"]:before{font-family:FontAwesome;content:"\f024"}
+ul.post-buttons li a[href^="/report?mode=lock"]:before{font-family:FontAwesome;content:"\f11d"}
+ul.post-buttons li a[href*="mode=quote"]:before{font-family:FontAwesome;content:"\f10d"}
+ul.post-buttons li a[href*="mode=ip"]:before{font-family:FontAwesome;content:"\f041"}
