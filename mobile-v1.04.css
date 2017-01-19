@@ -83,7 +83,7 @@ h3{color:#222;float:left;font-size:15px;font-weight:400;max-width:100%;overflow:
 .forum-lastpost span{color:#797979}
 .forum-statistics{background-color:#EBEBEB;color:#797979;display:block;border-radius:3px;font-size:12px;padding:0 6px;position:absolute;right:0;top:0;white-space:nowrap;direction:ltr}
 .topic h2{color:#222;font-size:16px;font-weight:400;max-width:100%;overflow:hidden;text-overflow:ellipsis}
-.topic-title {font-size: 15px; font-weight: bold;}
+.topic-title {font-size: 15px; font-weight: 500;}
 span.rank{font-size:13px;border-top:1px solid #e34e04;color:#e34e04}
 .post-times h2{font-size:12px;font-style:italic;color:#757575}
 .post-content img{max-width:100%;height:auto!important}
@@ -369,7 +369,7 @@ span.list-new-topic.xyz a, #related-topics a{text-decoration:none!important;colo
 #related-topics li:after{left:13px!important}
 #related-topics a{width:98%;margin-left:15px;line-height: normal;}
 div#related-topics{padding:10px 0}
-a.topic-box{font-weight:700!important;background:#ddd;margin:0!important;padding:8px 10px;width:100%!important}
+a.topic-box{font-weight:600!important;margin:0!important;padding:8px 0;}
 .forum-content h3{padding:0!important}
 .forum-statistics{margin-top:0!important}
 div#footer{background-color:#222222;color:#7f7f7f;padding:10px;position:relative;text-overflow:ellipsis;white-space:nowrap;word-break:keep-all}
