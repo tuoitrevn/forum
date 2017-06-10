@@ -9,7 +9,7 @@ body{direction:ltr;font-family:'Roboto',sans-serif,Helvetica,Arial,Tahoma;font-s
 a{color:inherit;text-decoration:none}
 i{vertical-align:middle}
 label,.label{font-size:14px!important}
-#wrap{margin:0 auto;max-width:1200px;background:#fff}
+#wrap{margin:0 auto;max-width:1200px;background:#fff;padding-bottom: 45px;}
 header:after,.pagination:after,.forum-section:after,.box-login-btns-main:after,label:after,.post-head:after,.notification-row:after,.mark-buttons:after,.form-buttons:after{clear:both;content:"";display:block}
 @keyframes notification-new-alert {
 0%{transform:rotate(20deg)}
@@ -103,7 +103,7 @@ h3{color:#222}
 .post-details{color:#29487d;font-size:14px;font-weight:700}
 .rank{color:#4267b2;font-weight:400}
 .post-times{font-size:13px;font-style:italic;color:#666}
-.post-buttons{border-color:#EBEBEB;border-style:solid;border-width:1px;list-style:none;overflow:hidden;margin-top:10px}
+.post-buttons { list-style: none; overflow: hidden; margin-top: 10px; background: #e9ebee; }
 .post-buttons li{float:left}
 .post-buttons li + li{margin-left:8px}
 .post-buttons a{display:block;float:left;height:42px;line-height:42px;text-align:center;width:42px}
@@ -158,7 +158,7 @@ input:checked + .radio-check:after{opacity:1}
 .input-subtle,.inputbox,.gensmall{border-bottom:2px solid rgba(0,0,0,0.25);border-radius:0!important;display:block;width:100%;clear:both;font-family:"Roboto";background-color:transparent;margin-bottom:8px;appearance:none;-moz-appearance:none;-webkit-appearance:none}
 input.input-subtle,input.inputbox,select.input-subtle{line-height:36px;height:36px}
 .input-subtle[type="file"]{padding:8px 0;line-height:1}
-textarea.input-subtle{line-height:22px;min-height:88px}
+textarea.input-subtle { line-height: 22px; min-height: 88px; font-family: 'Roboto',sans-serif,Helvetica,Arial,Tahoma; font-size: 15px; padding: 4px; border: 1px solid #ddd; outline: none; }
 select.gensmall,#profile_field_4_-12_0{line-height:36px;height:36px;clear:none;display:inline-block;margin:0 24px 0 8px;width:auto}
 #profile_field_4_-12_0{margin-right:0}
 .box{background-color:#FFFFFF;box-shadow:0 1px 3px rgba(0,0,0,0.24);border-radius:3px;display:block;font-size:14px;margin:16px 8px;overflow:hidden;padding:16px;position:relative}
