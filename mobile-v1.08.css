@@ -109,7 +109,7 @@ h3{color:#222;float:left;font-size:15px;font-weight:400;max-width:100%;overflow:
 .post-buttons a{display:block;float:left;height:42px;line-height:42px;text-align:center;width:42px}
 .post-buttons i{font-size:16px}
 .post-content{font-size:16px;white-space:normal;word-wrap:break-word}
-.post-content a{color:#0598E4;border-bottom-style:solid;border-bottom-width:1px;font-weight:500}
+.post-content a{color:#0598E4;font-weight:500}
 .post-content .mentiontag{font-weight:500;border:none}
 .post-content embed{height:auto!important;max-width:100%}
 .post-content ul,.post-content ol{margin-left:25px}
@@ -365,9 +365,10 @@ li.list-new-topic:nth-child(4):before,li.list-new-topic:nth-child(4):after{backg
 li.list-new-topic:nth-child(5) ~ li:before,li.list-new-topic:nth-child(3) ~ li:after{color:#7192A8;text-shadow:0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF,0 0 2px #FFF}
 li.list-new-topic:nth-child(5):before,li.list-new-topic:nth-child(5):after{background:#CCB9AE}
 span.list-new-topic.xyz a{text-decoration:none!important;color:#333;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:block;width:93%;border:0;margin-left:19px;font-weight: 400;}
-a.topic-box { margin-bottom: 20px; margin-bottom: 1.25rem; font-size: 20px; font-weight: 700; display: block; color: #222222; }
-#related-topics { list-style: square; margin: 20px 0 20px 20px; }
-#related-topics a { border-bottom-width: 0; }
+#wp_rp_first { margin-top: 20px; }
+a.topic-box { font-size: 20px; font-weight: 700; color: #222222; }
+.related_post { list-style: square; margin: 20px 0 20px 20px; }
+.related_post li { margin-bottom: 5px; }
 .forum-content h3{padding:0!important}
 .forum-statistics{margin-top:0!important}
 div#footer{background-color:#222222;color:#7f7f7f;padding:10px;position:relative;text-overflow:ellipsis;white-space:nowrap;word-break:keep-all}
