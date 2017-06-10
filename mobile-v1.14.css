@@ -9,7 +9,7 @@ body{direction:ltr;font-family:'Roboto',sans-serif,Helvetica,Arial,Tahoma;font-s
 a{color:inherit;text-decoration:none}
 i{vertical-align:middle}
 label,.label{font-size:14px!important}
-#wrap{margin:0 auto;max-width:1200px;background:#fff;padding-bottom: 45px;}
+#wrap{margin:0 auto;max-width:1200px;background:#fff;}
 header:after,.pagination:after,.forum-section:after,.box-login-btns-main:after,label:after,.post-head:after,.notification-row:after,.mark-buttons:after,.form-buttons:after{clear:both;content:"";display:block}
 @keyframes notification-new-alert {
 0%{transform:rotate(20deg)}
@@ -369,3 +369,8 @@ a.sceditor-button{background:#ebebeb;margin:1px;box-sizing:content-box}
 .post-buttons li a[href*="mode=report"]:before{font-family:FontAwesome;content:"\f024"}
 .post-buttons li a[href^="/report?mode=lock"]:before{font-family:FontAwesome;content:"\f11d"}
 .post-buttons li a[href*="mode=ip"]:before{font-family:FontAwesome;content:"\f041"}
+
+/****** ads ******/
+.mb-ads { margin-top: 20px; }
+.mb-ads a.topic-box { display: block; }
+.SC_TBlock_242813_ads-modal-button img, img[src^="//st-n.ads5-adnow.com/i/logo/adnow-mini-v2.png"] { display: none!important; }
