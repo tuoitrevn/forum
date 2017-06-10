@@ -20,7 +20,7 @@ header:after,.pagination:after,.forum-section:after,.box-login-btns-main:after,l
 25%{transform:rotate(40deg)}
 30%{transform:rotate(20deg)}
 }
-#header{background-color:#1976d2;color:#FFFFFF;height:76px;line-height:76px;position:relative;text-overflow:ellipsis;white-space:nowrap;word-break:keep-all}
+#header{background-color:#1976d2;color:#FFFFFF;height:76px;line-height:76px;position:relative;text-overflow:ellipsis;white-space:nowrap;margin-bottom: 10px;word-break:keep-all}
 #header .mobile_prev_button{cursor:pointer;float:left;font-size:0;height:56px;text-align:center;width:56px;position:relative}
 #header .mobile_prev_button:hover{background-color:#1976D2}
 #header .mobile_prev_button + h1{margin-left:56px}
@@ -75,7 +75,7 @@ h1{font-size:20px;font-weight:400;overflow:hidden;margin-left:16px;margin-right:
 .forum-icon i{display:none;font-size:16px}
 .forum-icon i:only-child{display:inline-block}
 .forum-icon img{width:36px}
-.forum-avatar{;height:36px;overflow:hidden;width:36px}
+.forum-avatar{;height:36px;overflow:hidden;width:36px;background: #fff;}
 .folder_locked .forum-icon:after{clear:both;display:block;position:absolute;content:"\e899";color:#BABABF;font-size:15px;left:-7px;position:absolute;text-align:center;top:35px;z-index:3;font-family:'Material Icons';font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-moz-font-feature-settings:liga;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 h3{color:#222}
 .forum-lastpost-time{color:#797979;font-size:14px}
