@@ -71,12 +71,12 @@ h1{font-size:20px;font-weight:400;overflow:hidden;margin-left:16px;margin-right:
 .forum-content{margin-left:48px;overflow:hidden;position:relative}
 .forum-content.topic h3{font-weight:400;font-size:14px}
 .forum-content h3{font-weight:500}
-.forum-icon{background-color:#B2B2B2;color:#FFFFFF;border-radius:18px;float:left;height:36px;line-height:36px;text-align:center;width:36px;position:relative;z-index:2}
+.forum-icon{color:#FFFFFF;float:left;height:36px;line-height:36px;text-align:center;width:36px;position:relative;z-index:2}
 .forum-icon.unread{background-color:#039BE5}
 .forum-icon i{display:none;font-size:16px}
 .forum-icon i:only-child{display:inline-block}
 .forum-icon img{width:36px}
-.forum-avatar{border-radius:18px;height:36px;overflow:hidden;width:36px}
+.forum-avatar{;height:36px;overflow:hidden;width:36px}
 .folder_locked .forum-icon:after{clear:both;display:block;position:absolute;content:"\e899";color:#BABABF;font-size:15px;left:-7px;position:absolute;text-align:center;top:35px;z-index:3;font-family:'Material Icons';font-weight:normal;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-moz-font-feature-settings:liga;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
 h3{color:#222}
 .forum-lastpost-time{color:#797979;font-size:14px}
